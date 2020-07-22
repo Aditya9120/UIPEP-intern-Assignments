@@ -1,0 +1,179 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+
+/*About*/
+.about{
+	padding-top: 45px;
+	background: #293f50;
+	
+}
+
+/*Button*/
+.btn{
+	border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+	margin-bottom:142px;
+	background: #293f50;
+}
+
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
+
+
+
+/*Copyright Claim*/
+.copyright{
+	float:left;
+	color:#fff;
+	text-align:center;
+	margin-bottom:25px; 
+	font-size: 20px;
+}
+
+
+/*Email*/
+
+.email{
+	float:right;
+	color:#fff;
+	font-size:20px;
+}
+
+
+/*Footer*/
+footer{
+	padding-top: 50px;
+}
+
+/*Grid items*/
+
+.grid-container{
+	display:grid;
+	grid-template-columns: repeat(3,200px) ;
+	grid-auto-rows:minmax(250px,auto);
+	grid-template-areas: 80px;
+	grid-row-gap: 20px;
+	grid-column-gap: 10px;
+	justify-content: space-around;
+	margin-top: 75px ;
+	background-color: #fff;
+	padding-bottom: 20px;
+	
+
+}
+
+.grid-item-1{
+
+}
+
+/*Header*/
+h1{
+	text-align: center;
+	font-family: 'Hind Madurai', cursive;
+	font-weight: 2px;
+	font-size: 45px;
+}
+h2{
+	color: #3b6978;
+}
+
+h3{
+	color: #b1b493;
+	background-size: 40px;
+	background-position: top;
+	background-color: #fff;
+	margin-top: 35px;
+}
+
+
+
+
+/*Image*/
+.img{
+	width:490px;
+	/*border:solid #fff;*/
+	box-shadow: 10px 10px 25px #888888;
+	margin-left:32px;
+	float:right;
+	margin-bottom: 22px;
+}
+
+
+/*Nav-Bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+
+}
+
+.nav-li {
+  float: right;
+}
+
+.nav-li a {
+  
+  text-decoration: none;
+  display: block;
+  border:solid #4f8a8b;
+  border-radius: 6px;
+  background-color: #dddddd;
+  margin:4px;
+  padding: 8px;
+  font-family: 'Roboto', sans-serif;
+  color:#000;
+  font-size: 15px;
+}
+
+.nav-li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+
+/*Profile*/
+body{
+	background: #293f50;
+  
+}
+.profile{
+	/*background: linear-gradient(to right bottom, #648880, #293f50);*/
+	text-align: left;
+	font-size: 25px;
+	color: #fff;
+	margin-left: 12px;
+	margin-bottom: 22px;
+	background: #293f50;
+}
+/*Skill*/
+.skill{
+	
+	margin-right: 122px;
+	color: #b1b493;
+}
+
+
+
+
+
+
